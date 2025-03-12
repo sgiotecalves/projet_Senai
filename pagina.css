@@ -1,0 +1,35 @@
+body{
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(79,8,110,1) 35%, rgba(5,4,48,1) 100%);
+    color: aliceblue;
+    
+}
+.principal {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+    margin-top: 10px;
+    gap: 5px; /* Ajuste o valor de 5px para o que achar ideal */
+}
+.principal h1, .principal h2, .principal p {
+    margin: 0; /* Remove qualquer margem extra */
+    padding: 0; /* Remove qualquer padding extra */
+}
+
+.principal h1{
+    font-family: "Trirong", serif;
+    font-size: 50px;
+}
+.principal h2 {
+    font-family: "Sofia", sans-serif;
+    font-size: 40px; /* Certifique-se de incluir a unidade "px" */
+    font-weight: 90; /* Define a espessura da fonte como fina */
+    margin-bottom: 3px;
+}
+.principal p {
+    font-family: "Sofia", sans-serif;
+    font-size: 15px; /* Certifique-se de incluir a unidade "px" */
+    font-weight: 90; /* Define a espessura da fonte como fina */
+}

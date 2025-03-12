@@ -1,0 +1,33 @@
+body {
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(79,8,110,1) 35%, rgba(5,4,48,1) 100%);
+    color: aliceblue;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    height: 100vh;
+
+}
+.Container {
+    font-family: "Sofia", sans-serif;
+    font-size: 40px;
+    text-shadow: 4px 4px 15px rgba(219, 30, 125, 0.8);
+    display: flex;
+    align-items: center;
+    gap: 20px; /* Espaçamento de 20px entre os itens */
+    
+}
+.Container i {
+    transition: transform 0.3s ease, color 0.3s ease; /* Suaviza a animação */
+}
+
+.Container i:hover {
+    color: purple; /* Muda a cor do ícone para roxo ao passar o mouse */
+    transform: translatex(14px) scale(1.2); /* Move o ícone 112px para baixo e aumenta o tamanho */
+}
+
+.Container a {
+    color: inherit; /* Herdar a cor do elemento pai */
+    text-decoration: none; /* Remove o sublinhado */
+}
+
+
