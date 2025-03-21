@@ -33,3 +33,46 @@ body{
     font-size: 15px; /* Certifique-se de incluir a unidade "px" */
     font-weight: 90; /* Define a espessura da fonte como fina */
 }
+/* Estilo do contêiner principal */
+.img {
+    display: flex;
+    flex-direction: column; /* Alinha os elementos de cima para baixo */
+    align-items: center; /* Centraliza todos os elementos no eixo horizontal */
+    margin-top: 50px; /* Ajustando o espaço para a imagem não ficar muito distante do texto */
+}
+
+/* Estilo do título */
+.titulo {
+    text-align: center; /* Centraliza o título */
+    margin-bottom: 20px; /* Espaço entre o título e as imagens */
+}
+
+/* Estilo do contêiner das imagens */
+.imagens {
+    display: flex; /* Coloca as imagens lado a lado */
+    justify-content: center; /* Centraliza as imagens horizontalmente */
+    align-items: center; /* Alinha no centro verticalmente */
+    gap: 150px; /* Espaço entre as imagens */
+}
+
+/* Estilo do contêiner individual de imagem */
+.imagem-container {
+    display: flex;
+    flex-direction: column; /* Mantém a imagem e o texto empilhados */
+    align-items: center; /* Centraliza a imagem */
+    text-align: center; /* Centraliza o conteúdo */
+}
+
+/* Estilo das imagens */
+.imagem-container img {
+    max-width: 250px; /* Ajuste o tamanho conforme necessário */
+    height: auto; 
+    border: none; /* Remove a borda */
+}
+
+/* Estilo do texto "oi" abaixo da imagem */
+.descricao {
+    margin-top: 10px;
+    font-size: 16px;
+}
+
